@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .row {
+    margin: 0px;
+  }
+  
+  .container {
+    padding: 10px 0px;
+  }
+  
+  p,
+  li {
+    color: #FFF;
+  }
+  
+  .checked {
+    color: yellow;
+  }
+  
+  #btn1, #btn2, #btn3, #btn4{
+    background-color: #000000;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Barra de navegação */
+  
+  #header,
+  .navbar {
+    background-color: #f0a818;
+  }
+  
+  #nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .navbar-brand {
+    padding: 0;
+    margin-left: 0px;
+    color: #fff;
+  }
+  
+  .nav-item a {
+    color: #FFF;
+  }
+  
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem 0.8rem;
+  }
+  
+  /* lançamentos */
+  
+  #new-movies {
+    background-color: #304878;
+  }
+  
+  #new-movies-title {
+    color: #FFF;
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  /* destaque */
+  #destaque {
+    background-color: #7890a8;
+  }
+  
+  #destaque-img {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+  }
+  
+  #destaque-img img {
+    padding: 25px;
+  }
+  
+  #aval {
+    text-align: justify;
+  }
+  
+  
+  #entrevistas{
+    padding: 25px 0px;
+    background-color: #304878;
+  }
+  
+  .movies-desc div span{
+    font-size: 6px;
+  }
+  
+  .filmes{
+    padding-bottom: 25px;
+  }
+  
+  /* novidades */
+  
+  
+  #novidades{
+    background-color: #7890a8;
+  }
+  .badge{
+    color: #fff;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    background-color: #FFFF6D
+  }
+  
+  #footer{
+    background-color: #f0a818;;
+    color: #fff;
+  }
